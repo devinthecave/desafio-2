@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+    
+}
+.page{
+    background-color: rgba(235, 233, 228,0.6);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 1500px;
+    
+    
+}
+body{
+   background-image: url(/bg-aranha.jpeg);
+    position: absolute;
+    background-position: center;   
+}
+
+header{
+ background-color: #ff4652;
+    height: 100px;
+    width: 100%;
+  padding: 40px 300px 40px 300px;
+}
+
+header{
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    color: #06133b;
+    font-weight: bold;
+    font-size: 19px;
+}
+ul li:hover{
+    color: #ebe4e9;
+    cursor: pointer;
+}
+.page{
+    padding: 30px 200px 30px 200px;
+    
+}
+
+p{
+    width: 800px;
+    color: #ff0413;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+}
+h2{
+    width: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #06133b;
+}
+h4{
+    color: #06133b;
+    font-weight: bold;
+    font-size: 25px;
+}
+.h4-1:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
+.h4-2:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
+.h4-3:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
+.h4-4:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
+.h4-5:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
+.h4-6:hover{
+    color: #ff4652;
+    cursor: pointer;
+}
